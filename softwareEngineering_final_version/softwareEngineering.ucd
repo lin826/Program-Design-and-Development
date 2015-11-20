@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="856,618" id="softwareEngineering" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020736F667477617265456E67696E656572696E67">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="UI" location="348,306" size="145,175" id="softwareEngineering/UI" runTimeClassModel="UI(),promptCommand,showWelcomeMsg(),showFinishMsg(),start(),promptID(),checkID">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,126">
+      <children xsi:type="editmodel:MethodEditModel" name="UI" id="softwareEngineering/UI#UI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkID" id="softwareEngineering/UI#checkID"/>
+      <children xsi:type="editmodel:MethodEditModel" name="promptCommand" id="softwareEngineering/UI#promptCommand"/>
+      <children xsi:type="editmodel:MethodEditModel" name="promptID" id="softwareEngineering/UI#promptID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showFinishMsg" id="softwareEngineering/UI#showFinishMsg()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showWelcomeMsg" id="softwareEngineering/UI#showWelcomeMsg()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="softwareEngineering/UI#start()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="softwareEngineering/UI->softwareEngineering/GradeSystems*softwareEngineering/UI->softwareEngineering/GradeSystems*softwareEngineering/UI-Soyatec::Import->softwareEngineering/GradeSystems*softwareEngineering/UI->softwareEngineering/GradeSystems*softwareEngineering/UI->softwareEngineering/GradeSystems*softwareEngineering/UI->softwareEngineering/GradeSystems*softwareEngineering/UI->softwareEngineering/GradeSystems" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,87" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="133,122"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="softwareEngineering/UI->softwareEngineering/Grades*softwareEngineering/UI->softwareEngineering/Grades*softwareEngineering/UI->softwareEngineering/Grades" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,157"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="softwareEngineering/UI->softwareEngineering/Main$NoSuchIDExceptions*softwareEngineering/UI->softwareEngineering/Main$NoSuchIDExceptions*softwareEngineering/UI->softwareEngineering/Main$NoSuchIDExceptions*softwareEngineering/UI-Soyatec::Import->softwareEngineering/Main$NoSuchIDExceptions" source="//@children.0" target="//@children.3/@children.2/@children.1" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="softwareEngineering/UI->softwareEngineering/Main$NoSuchCommandExceptions*softwareEngineering/UI->softwareEngineering/Main$NoSuchCommandExceptions*softwareEngineering/UI->softwareEngineering/Main$NoSuchCommandExceptions*softwareEngineering/UI-Soyatec::Import->softwareEngineering/Main$NoSuchCommandExceptions" source="//@children.0" target="//@children.3/@children.2/@children.0" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,137" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.2/@sourceConnections.0" name="Grades" location="191,50" size="148,157" id="softwareEngineering/Grades">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="scores" id="softwareEngineering/Grades#scores"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="studentName" id="softwareEngineering/Grades#studentName"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Grades" id="softwareEngineering/Grades#Grades"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateTotalGrade" id="softwareEngineering/Grades#calculateTotalGrade([F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getScores" id="softwareEngineering/Grades#getScores()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStudentName" id="softwareEngineering/Grades#getStudentName()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="GradeSystems" location="50,271" size="133,211" id="softwareEngineering/GradeSystems">
+    <children xsi:type="editmodel:CompartmentEditModel" size="59,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="grades" id="softwareEngineering/GradeSystems#grades"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,144">
+      <children xsi:type="editmodel:MethodEditModel" name="GradeSystems" id="softwareEngineering/GradeSystems#GradeSystems()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkReally" id="softwareEngineering/GradeSystems#checkReally"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsID" id="softwareEngineering/GradeSystems#containsID"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGrades" id="softwareEngineering/GradeSystems#getGrades()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGrades" id="softwareEngineering/GradeSystems#getGrades"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showGrade" id="softwareEngineering/GradeSystems#showGrade"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showRank" id="softwareEngineering/GradeSystems#showRank"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateWeights" id="softwareEngineering/GradeSystems#updateWeights()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="softwareEngineering/GradeSystems->softwareEngineering/Grades*softwareEngineering/GradeSystems->softwareEngineering/Grades*softwareEngineering/GradeSystems-Soyatec::Import->softwareEngineering/Grades*softwareEngineering/GradeSystems->softwareEngineering/Grades*softwareEngineering/GradeSystems->softwareEngineering/Grades*softwareEngineering/GradeSystems->softwareEngineering/Grades*softwareEngineering/GradeSystems->softwareEngineering/Grades" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="27,157"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="150,525" size="248,139" id="softwareEngineering/Main">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="softwareEngineering/Main#main"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,62">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.3 //@children.3/@sourceConnections.2" name="NoSuchCommandExceptions" location="1285,633" size="225,29" id="softwareEngineering/Main$NoSuchCommandExceptions" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.3/@sourceConnections.1" name="NoSuchIDExceptions" location="1013,1060" size="173,29" id="softwareEngineering/Main$NoSuchIDExceptions" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="softwareEngineering/Main->softwareEngineering/UI*softwareEngineering/Main->softwareEngineering/UI*softwareEngineering/Main-Soyatec::Import->softwareEngineering/UI*softwareEngineering/Main->softwareEngineering/UI*softwareEngineering/Main->softwareEngineering/UI*softwareEngineering/Main->softwareEngineering/UI*softwareEngineering/Main->softwareEngineering/UI" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="222,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,175"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="softwareEngineering/Main-Soyatec::Import->softwareEngineering/Main$NoSuchIDExceptions" source="//@children.3" target="//@children.3/@children.2/@children.1" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="192,139" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="softwareEngineering/Main-Soyatec::Import->softwareEngineering/Main$NoSuchCommandExceptions" source="//@children.3" target="//@children.3/@children.2/@children.0" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="248,125" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
